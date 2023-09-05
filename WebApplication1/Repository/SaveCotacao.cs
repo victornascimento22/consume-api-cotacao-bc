@@ -8,7 +8,7 @@ namespace WebApplication1.Repository
     public class CotacaoRepository
     {
 
-        private readonly string _connection = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=187.108.201.70)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=capital)));Validate connection=true; User Id=dwu;Password=S7hHmdmz28i2;";
+        private readonly string _connection = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=XXXXXXXX)(PORT=XXXXX)))(CONNECT_DATA=(SERVICE_NAME=XXXXXX)));Validate connection=true; User Id=XXXXXX;Password=XXXXXXXX;";
      
 
         public bool SaveCotacao(OlindaResponse cotacao)
